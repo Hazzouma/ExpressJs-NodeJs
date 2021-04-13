@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+ul > li {
+  padding: 0 45px;
+  list-style-type: none;
+}
+li > a {
+  text-decoration: none;
+  color: blue;
+}
+h1 {
+  text-align: center;
+}
